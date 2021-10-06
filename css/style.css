@@ -85,6 +85,12 @@ h2 {
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
+.home-img {
+  transition: all 0.3s ease-in-out;
+}
+.home-img:hover {
+  transform: rotate(30deg);
+}
 
 @media (min-width: 470px) {
   #Home {
