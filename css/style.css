@@ -40,6 +40,15 @@ section {
 .navbar-title {
   font-size: xx-large;
 }
+#navmenu ul li a {
+  transition: 0.3;
+}
+#navmenu ul li a:hover {
+  font-size: 17px;
+}
+.CONTACT-ME a:hover {
+  font-size: 17px;
+}
 /* ................Home...............   */
 
 #Home {
@@ -191,7 +200,7 @@ h2 {
 
 .skills .progress-bar {
   height: 10px;
-
+  transition: width 0.6s linear;
   background-color: #741c19;
 }
 .OTHER-SKILLS h2 {
@@ -261,7 +270,7 @@ h2 {
 }
 /* ........................
  port 
- .......................... */
+
 /* --------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
